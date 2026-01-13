@@ -1,0 +1,24 @@
+CFA ANALYSIS
+
+Συσχέτιση χαρακτηριστικών με close:
+close         1.000000
+close_t-1     0.998213
+high          0.997669
+low           0.997175
+open          0.995203
+close_t-2     0.994140
+close_t-3     0.989910
+volume       -0.727359
+volume_t-1   -0.729886
+volume_t-2   -0.731829
+volume_t-3   -0.733627
+Name: close, dtype: float64
+
+Όριο συσχέτισης: 0.3
+
+Επιλεγμένα χαρακτηριστικά:
+['close_t-1', 'high', 'low', 'open', 'close_t-2', 'close_t-3', 'volume', 'volume_t-1', 'volume_t-2', 'volume_t-3']
+
+ΑΠΟΤΕΛΕΣΜΑΤΑ ΜΟΝΤΕΛΟΥ CFA
+TRAIN MAE: 1.1578, RMSE: 1.6484
+VAL MAE: 2.6542, RMSE: 3.4401
